@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ndlS8H" name="TodoMVC" projectType="guiapp" useAppConfig="1"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="I3D Technology Inc."
+              companyCopyright="(C) I3D Technology Inc." maxBinaryFileSize="20971520"
+              cppLanguageStandard="20">
+  <MAINGROUP id="QeU8Nb" name="TodoMVC">
+    <GROUP id="{F25B5432-3FD8-7C53-10D6-685AFA91807A}" name="Source">
+      <FILE id="MxPxk1" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="QSaHrY" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="ID70Me" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_USE_DIRECTWRITE="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="TodoMVC" binaryPath="$(SolutionDir)$(Configuration).$(Platform)"
+                       intermediatesPath="$(SolutionDir)$(Configuration).$(Platform).tmp\$(ProjectName)\"
+                       useRuntimeLibDLL="0" characterSet="Unicode"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="TodoMVC" binaryPath="$(SolutionDir)$(Configuration).$(Platform)"
+                       intermediatesPath="$(SolutionDir)$(Configuration).$(Platform).tmp\$(ProjectName)\"
+                       useRuntimeLibDLL="0" characterSet="Unicode"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../third_party/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../third_party/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../third_party/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../third_party/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../third_party/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../third_party/juce/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="0" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="0" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="0" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="0" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="0" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="0" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>
